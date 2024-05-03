@@ -4,9 +4,15 @@ docker pull nginx
 sudo docker build -t sample-html .
 docker run -d -p 8080:80 sample-html
 http://localhost:8080
-
-
-
 docker login
 docker tag local_image kishoregandhi123/test_ocp:tagname
 docker push kishoregandhi123/test_ocp:tagname
+
+
+Git commands:
+
+git add .
+git config --list
+git commit -m "New commit"
+git branch
+git push
