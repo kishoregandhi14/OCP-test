@@ -1,3 +1,5 @@
+Docker commands : 
+
 docker pull nginx
 sudo docker build -t sample-html .
 docker run -d -p 8080:80 my-html-image
